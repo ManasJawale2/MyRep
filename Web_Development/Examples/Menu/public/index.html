@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <ul class="Options">
+            <a href="index.html"><li class = "ListObj" style="right: 65vw;">Home</li></a>
+            <a href=""><li class = "ListObj" style="right: 60vw;" onclick="alert('This is a test website made for just fun don\'t take this serious')">About</li></a>
+            <a href=""><li class = "ListObj" style="right: 55vw;">Profile</li></a>
+        </ul>
+    </div>
+
+    <h1 id = "Title">Your On Home Tab</h1>
+    <h2>Not signed in? Enter Info here V</h2>
+    <form class = "form">
+        <!--button:type.class#id-->
+
+        <div class="borderdiv">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="namefield">
+    
+            </div>
+            
+            <div>
+                <label for="fullname">Fullname:</label>
+                <input type="text" name="fullname" id="fullnamefield">
+
+            </div>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit" class="submit">
+            
+        </div>
+        
+
+    </form>
+    <script>
+        async function TestPost() {
+            a = await fetch('/', {method:"POST"})
+            b = await a.text
+            console.log(b)
+        }
+    </script>
+</body>
+</html>

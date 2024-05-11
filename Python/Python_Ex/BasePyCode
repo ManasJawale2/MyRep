@@ -1,0 +1,17 @@
+# Copy this code when needed
+
+import pygame
+
+pygame.init()
+
+screen = pygame.display.set_mode((700, 700))
+screen.fill((0, 255, 0))
+
+done = False
+
+while not done:
+    screen.fill((0, 255, 0))
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            done = not done
+    pygame.display.update()

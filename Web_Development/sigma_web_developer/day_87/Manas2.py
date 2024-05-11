@@ -1,0 +1,2 @@
+a = "Manas"
+print("Hi!")

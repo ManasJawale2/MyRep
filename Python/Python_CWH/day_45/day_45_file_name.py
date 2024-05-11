@@ -1,0 +1,2 @@
+import Manas
+Manas.Welcome()

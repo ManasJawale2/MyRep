@@ -1,0 +1,12 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+td {
+    border: 5px solid black;
+}
+
+body {
+    background-color: yellow;
+}

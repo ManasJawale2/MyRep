@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans,Consolas, 'Courier New', monospace;
+
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.menu {
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.ListObj {
+    display: inline-block;
+    border: 2px solid #e4e4e4;
+    background-color: #e4e4e4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    justify-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    position: absolute;
+}
+
+.fancybutton {
+    background-color: green;
+    border-radius: 10px;
+    border-color: brown; width: 100px;
+    height: 50px;
+    font-size: large;
+}
+
+#Title {
+    transform: translateX(30vw);
+}
+
+.ListObj:hover {
+    animation: listobjhover 1s ease 0s infinite/*good 😀😃😄😁😆*/
+
+}
+
+.submit {
+    background-color: green;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.borderdiv {
+    justify-self: center;
+    width: 500px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.borderdiv div {
+    height: 40px;
+}
+
+.borderdiv input {
+    height: 20px; 
+}
+
+
+@keyframes listobjhover {
+    from {
+        background-color: #e4e4e4;
+    }
+    to {
+        background-color:aqua;
+    }
+}
