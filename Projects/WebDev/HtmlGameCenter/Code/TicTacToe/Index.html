@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe 1v1</title>
+    <style>
+        :root {
+            --gamewidth: 2px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        body {
+            background-color: rgb(129, 0, 129);
+        }
+        .containor {
+            display: grid;
+            grid-template-columns: repeat(3, 50px);
+            grid-template-rows: repeat(3, 350px);
+            gap: 5px;
+            height: 300px;
+            width: 300px;
+            justify-content: space-between;
+            align-items: center;
+            overflow:visible;
+        }
+        .box {
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+            background-color: aliceblue;
+            padding: 2px;
+            font-size: 40px;
+        }
+        .box:hover {
+            animation: changecolor 1s 0s infinite;
+        }
+
+        @keyframes changecolor {
+            to {
+                background-color: #0f0a00;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="Title">TicTacToe 1v1</div>
+    <div class="containor">
+        <div class="top">
+            <div class="box" align="center"></div>
+            <div class="box" align="center"></div>
+            <div class="box" align="center"></div>
+        </div>
+        <div class="middle">
+            <div class="box" align="center"></div>
+            <div class="box" align="center"></div>
+            <div class="box" align="center"></div>
+        </div>
+        <div class="bottom">
+            <div class="box" align="center"></div>
+            <div class="box" align="center"></div>
+            <div class="box" align="center"></div>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>

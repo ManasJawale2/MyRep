@@ -1,15 +1,14 @@
 {
-  "name": "day_90",
+  "name": "chemestrycalculator",
   "version": "1.0.0",
+  "description": "",
   "main": "Main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
-  },
-  "description": ""
+    "periodic-table": "^0.0.8"
+  }
 }
